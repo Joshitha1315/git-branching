@@ -32,7 +32,8 @@ git rebase bugFix C0
 
 This level explores how to **undo or revert commits** safely. I used `git revert`, `git reset`, and different checkouts to reach the goal state.
 The idea is to reverse changes from pushed or local commits without rewriting public history when possible.
-<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/ce4a300f-42c1-4d28-9bea-b895d0277f96" />
+<img width="1440" height="900" alt="Screenshot 2025-12-17 at 11 09 35 AM" src="https://github.com/user-attachments/assets/09349d02-b682-4776-b85a-5e36285db738" />
+
 
 
 
