@@ -14,7 +14,7 @@ I practiced commands to safely update branch pointers using direct commit refere
 git checkout main
 git checkout C1
 git checkout C0
-git branch -f main HEAD~3        # Force main to point at a relative commit
+git branch -f main HEAD~3    
 git checkout bugFix
 git branch -f main HEAD~3
 git checkout C5
@@ -46,3 +46,31 @@ git checkout C3
 git rebase C3
 git rebase C1
 ```
+*️⃣SECTION-3
+Level-1
+Moving Work Around in Git
+So far, we’ve learned the core Git concepts—commits, branches, and navigating history. These alone cover most daily development tasks.
+<img width="1440" height="900" alt="level 3(1)" src="https://github.com/user-attachments/assets/3c4b1b23-0155-4b3b-9c1f-548cc487c831" />
+
+📌commamnds used :
+git cherry-pick c3
+git cherry-pick c4
+git cherry-pick c7
+git cherry-pick c3 c4 c7
+
+Level-2
+🔹 What is Git Interactive Rebase?
+Git Interactive Rebase allows you to:
+See a list of commits
+Decide what to do with each commit
+Rewrite history in a controlled way
+<img width="1440" height="900" alt="level-3(2)" src="https://github.com/user-attachments/assets/c28c2988-8944-4692-b428-3ffdc7b63247" />
+
+📌 Commands:
+git rebase -i HEAD~c4
+
+*️⃣SECTION-4
+
+
+
+
